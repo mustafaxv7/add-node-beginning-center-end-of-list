@@ -1,3 +1,4 @@
+//L1 Student at the university of chlef
 #include <stdio.h>
 #include <stdlib.h>
 struct cellule{
@@ -33,6 +34,7 @@ int main()
      printf(" %d, ",ptr->data);
      ptr = ptr->link;
    }
+  
    printf("}");
 }
 void add_node_center(struct cellule *head , int data , int posb){
@@ -53,3 +55,4 @@ void add_node_center(struct cellule *head , int data , int posb){
     ptr2->link = temp;
   }
 }
+//peace and love
