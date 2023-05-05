@@ -1,3 +1,4 @@
+//L1 student at the university of chlef UHBC
 #include <stdio.h>
 #include <stdlib.h>
 struct cellule{
@@ -47,5 +48,5 @@ void add_node_beginning(struct cellule **head , int data){
      ptr->link = *head;
      *head = ptr;
      }
-  
 }
+//peace and love
